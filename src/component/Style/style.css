@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
+body {
+    background: #fa9d64;
+    display: flex;
+    margin-left:400px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    font-family: "Jost", sans-serif;
+}
+
+.heading{
+  font-size: 40px; 
+  font-family: "Jost", sans-serif; 
+  margin-left: 50px;
+
+}
+
+input{
+    border: none;  
+}
+
+
+
+.box {
+    background-image:url(https://news-cdn.softpedia.com/images/news2/YoWindow-for-iOS-a-User-Friendly-Animated-Weather-App-18.png);
+    /* url(file:///C:/Users/user/Desktop/weatherapp/weatherimg.webp);*/
+    position: relative;
+    width: 320px;
+    height: 500px;
+}
+
+ 
+
+
+
+
+
+.info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 390px;
+
+}
+
+.location {
+    margin-top:20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+
+
+
+.temp {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.tempmin_max {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #57606f;
+}
+
+
+
+
+
+
+.inputData {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    width: 180px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px 20px ;
+    outline: none;
+    font-size: 30px;
+}
+
+.errorMsg {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
